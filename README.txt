@@ -1,0 +1,1 @@
+﻿Ceci est un repo simple. Le projet consiste à y faire des modifications, ajouter des commits en conséquence, puis l'envoyer sur Github, récupérer sun URL et l'inclure dans le fichier texte fourni pendant l'activité.
