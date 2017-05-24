@@ -1,0 +1,278 @@
+body 
+{
+    color: #31708f;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 24px;
+    top: 0px;
+}
+
+@media screen and (min-width: 990px) 
+{
+    .logo
+    {
+        max-width: 40%;
+        align-content: center;
+        padding-top: 160px;
+        margin-left: 30%;
+        animation: translation1 2.5s;
+    }
+    
+    @keyframes translation1
+    {
+        0%   { transform: translateY(-50px) }
+        100% { transform: translateY(0px) }
+    }
+
+    #Navbar
+    {
+        right: 0;
+    }
+
+    .slogan
+    {
+        width: 33.33%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+
+    #slogan1
+    {
+        margin: 0;
+    }
+
+    #slogan2
+    {
+        margin: 0;
+    }
+
+    #slogan3
+    {
+        margin: 0;
+    }
+}
+
+h1 
+{
+    font-size: 70px;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.building 
+{
+    padding-bottom : 50px;
+    
+}
+
+.content 
+{
+    background-color: aliceblue;
+    font-size: 24px;
+}
+
+.contact 
+{
+    padding: 100px;
+    margin-top: 225px;
+    margin-right: 245px;
+}
+
+.footer 
+{
+    background-color: #31708f;
+    color: white;
+    margin-right: 245px;
+}
+
+#Navbar
+{
+    position: fixed;
+    height: 100%;
+    right: 0;
+    width: 245px;
+    top: 0px;
+    background-color: #315876;
+    font-size: 18px;
+}
+
+#Header
+{
+    /*background: url("../img/stars.jpg") fixed center no-repeat;*/
+    background: radial-gradient(#b4d0f7 20%, #e8f1fd 80%);
+    margin-right: 245px;
+    background-size: 100%;
+
+}
+
+#Info
+{
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 142px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#Apropos
+{
+    margin-right: 245px;
+    width: inherit;
+    padding: 0;
+}
+
+#brand-bootstrap-overrides
+{
+    float: none;
+    padding: 0;
+}
+
+/*#container-bootstrap-overrides
+{
+    width: 43.56%;
+}*/
+
+#menu-object
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: none;
+}
+
+#tab
+{
+    color: #c6dfeb;
+    background-color: #315876;
+    animation: highlight-out 0.5s;
+    animation-fill-mode: forwards;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+}
+
+#tab:hover
+{
+    background-color: #315876;
+    animation: highlight-in 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes highlight-out
+{
+    from { color: #e44ead }
+    to   { color: #c6dfeb }
+}
+
+@keyframes highlight-in
+{
+    from { color: #c6dfeb }
+    to   { color: #e44ead }
+}
+
+#underscore
+{
+    background-color: #e44ead;
+    height: 1px;
+    width: 0%;
+    animation: underscore-out 0.5s;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+#underscore:hover
+{
+    animation: underscore-in 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes underscore-out
+{
+    from { width: 100% }
+    to   { width: 0% }
+}
+
+@keyframes underscore-in
+{
+    from { width: 0% }
+    to   { width: 100% }
+}
+
+#tab:focus
+{
+    background-color: #315876;
+}
+
+.fadein
+{
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein 
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein 
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein 
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#menu
+{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 0;
+}
+
+.scale
+{
+    animation: zoomout 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.scale:hover
+{
+    animation: zoomin 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomout
+{
+    from {transform: scale(1.15)}
+    to   {transform: scale(1)}
+}
+
+@keyframes zoomin
+{
+    from {transform: scale(1)}
+    to   {transform: scale(1.15)}
+}
